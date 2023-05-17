@@ -1,0 +1,141 @@
+{
+	"pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+		{
+		    "path" : "pages/ad/ad",
+		    "style" :                                                                                    
+		    {
+		        "navigationBarTitleText": "",
+		        "enablePullDownRefresh": false,
+				"app-plus":{
+					"titleNView": false
+				}
+		    }
+		    
+		},
+		{
+			"path": "pages/index/index",
+			"style": {
+				"navigationBarTitleText": "uni-app",
+				"enablePullDownRefresh": false,
+				"app-plus":{
+					"titleNView": false
+				}
+			}
+		},
+		{
+			"path": "pages/video/video",
+			"style": {
+				"navigationBarTitleText": "uni-app",
+				"app-plus":{
+					"titleNView": false
+				}
+			}
+		},
+		{
+			"path": "pages/mine/mine",
+			"style": {
+				"navigationBarTitleText": "uni-app",
+				"app-plus":{
+					"titleNView": false
+				}
+			}
+		}
+	    ,{
+            "path" : "pages/account/account",
+            "style" : {
+                "navigationBarTitleText": "",
+                "enablePullDownRefresh": false,
+				"app-plus":{
+					"titleNView": false
+				}
+            }
+            
+        }
+        ,{
+            "path" : "pages/cloud/cloud",
+            "style" : {
+                "navigationBarTitleText": "",
+                "enablePullDownRefresh": false,
+				"app-plus":{
+					"titleNView": false
+				}
+            }
+            
+        }
+        ,{
+            "path" : "pages/subpages/login/login",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        
+        ,{
+            "path" : "pages/subpages/album/album",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/subpages/play/play",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "",
+                "enablePullDownRefresh": false,
+				"app-plus":{
+					"titleNView": false
+				}
+            }
+            
+        }
+    ],
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "uni-app",
+		"navigationBarBackgroundColor": "#F8F8F8",
+		"backgroundColor": "#F8F8F8"
+	},
+	"tabBar": {
+		"color":"#888",
+		"selectedColor":"#ff2419",
+		"borderStyle":"white",
+		"backgroundColor":"#f9f9f9",
+		"list": [
+			{
+				"pagePath":"pages/index/index",
+				"iconPath":"static/tab/t_1.png",
+				"selectedIconPath":"static/tab/t_11.png",
+				"text":"首页"
+			},
+			{
+				"pagePath":"pages/video/video",
+				"iconPath":"static/tab/t_2.png",
+				"selectedIconPath":"static/tab/t_21.png",
+				"text":"视频"
+			},
+			{
+				"pagePath":"pages/mine/mine",
+				"iconPath":"static/tab/t_3.png",
+				"selectedIconPath":"static/tab/t_31.png",
+				"text":"我的"
+			},
+			{
+				"pagePath":"pages/cloud/cloud",
+				"iconPath":"static/tab/t_4.png",
+				"selectedIconPath":"static/tab/t_41.png",
+				"text":"云村"
+			},
+			{
+				"pagePath":"pages/account/account",
+				"iconPath":"static/tab/t_5.png",
+				"selectedIconPath":"static/tab/t_51.png",
+				"text":"账号"
+			}
+		]
+	}
+}
